@@ -22,6 +22,7 @@ module.exports = function(grunt) {
 
         // Variable object to set default values for options
         var options = this.options({
+            rootUrl: false,
             screenshots: 'screenshots',
             results: 'results',
             viewportSize: [1280, 800],
