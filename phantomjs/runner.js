@@ -65,7 +65,7 @@ phantomcss.init({
   },
   fileNameGetter: function(root,filename){
 
-        var name = phantomcss.pathToTest + 'baseline/' + filename;
+        var name = phantomcss.pathToTest + args.results + '/' + filename;
         if(fs.isFile(name+'.png')){
             return name +'.diff.png';
         } else {
