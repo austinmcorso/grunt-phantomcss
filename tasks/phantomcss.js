@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         var options = this.options({
             rootUrl: false,
             screenshots: 'screenshots',
-            results: 'results',
+            results: 'baseline',
             viewportSize: [1280, 800],
             mismatchTolerance: 0.05,
             waitTimeout: 5000, // Set timeout to wait before throwing an exception
